@@ -1,0 +1,235 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+
+
+
+
+*, *:after, *:before {  
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html { 
+	font-size: 100%; 
+	padding: 0; 
+	margin: 0;
+}
+
+
+/* LOGO */
+.logo img{
+	margin: auto;
+	padding:  38% 35%;
+	text-align: center;
+}
+
+
+
+.side {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+
+}
+/* div side-left */
+.side-left {
+	left: 0;
+	background:#fce6d9;
+	color: #fff;
+	outline: 1px solid #fff; 
+}
+
+
+/* div side-right */
+.side-right {
+	right: 0;
+	background:#373866;
+	color: #fff;
+	outline: 1px solid #fff;
+	
+}
+
+.panel-heading {
+    padding: 15% 15px;
+	margin: 5% 5%;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+    color: #fff;
+   margin:15px 20% ;
+     
+}
+.panel-title .bi-person-plus{
+	color: rgba(0, 0, 0, 0.2);
+	transform: translate(-50% ,-50%);
+     font-size: 50px;
+	 position:relative ;
+	  left: 18px;
+	  padding: 14px;
+	  
+	  
+	
+	
+	
+}
+
+.panel-heading .panel-title{
+	position: absolute;
+    right: 50%;
+    padding: 5px;
+	top: 10%;
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+span.soustitre{
+	 position: absolute;
+     right:55%;
+    padding: 0px;
+	font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+ .form-check .form-check-inline{
+	position: relative;
+    left:10px;
+	top: 20px;
+	font-size: 20px;
+    padding:10px;
+	width: 90px;
+	height: 60px;
+
+}
+.panel-heading .form-check-input{
+   font-size: 20px;
+   padding:10px;
+
+}
+
+
+.panel-heading .form-check-label{
+   font-size: 15px;
+   font-family: 'Lato', sans-serif;
+   font-family: 'Roboto', sans-serif;
+  
+}
+
+.panel-heading .details{
+	font-size:16px;
+	padding: 10px;
+	margin: 5px;
+	position: absolute;
+	left: 20%;
+	right: 23%;
+	line-height: 15px;
+	font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.quote{
+    color: rgba(0,0,0,.1);
+     font-size: 5px;
+	 position: relative;
+	 right: 10px;
+	 display: inline-block;
+    
+}
+ /* checkbox memoriser */
+.AZ{
+	padding-right:30%;
+	position: relative;
+	right: 15px;
+	font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	
+}
+#inlineFormCheck{
+	position: absolute;
+    left:10px;
+	font-size: 20px;
+	width: 50px;
+	
+}
+ 
+/* BUTTON */
+.d-grid .btn-warning{
+	padding-right: 15px;	
+    margin-bottom: 15px;
+	position: relative;
+	left: 15px;
+	font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	
+	
+}
+
+
+
+/* link */
+.link a{
+	text-decoration: none;
+	color:#FF8C00 ;
+	font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.link a:hover{
+	color:#FF8C00 ;
+}
+.link span  {
+	padding-right: 50px;	
+	position: relative;
+	right: 5px;
+	font-family: 13px;
+	font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-height: 41.125em) {
+    .panel-body {
+		-webkit-transform: translateY(-25%) translateX(-50%);
+		transform: translateY(-25%) translateX(-50%);
+	}
+}
+.panel-body{
+    position: absolute;
+	top: 40%;
+	left: 40%;
+	padding:0;
+    margin: 10px 15px ;
+	width: 50%;
+	-webkit-transform: translateY(-10%) translateX(-10%);
+	transform: translateY(-10%) translateX(-40%);
+}
+.panel-body .form-control {
+    width: 100%;
+    height: 50px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+    font-size: 18px;
+    
+}
+.form-group input{
+  border:0;
+  background:none ;
+  box-shadow: 0 0 10px #373866;
+    border: 1px solid #fff;
+    padding: 14px 10px;
+    width: 200px;
+	
+}
+
+
+
+  
